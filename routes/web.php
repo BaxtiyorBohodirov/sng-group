@@ -31,3 +31,4 @@ Route::get('/lang/{lang}',function($lang){
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
