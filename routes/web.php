@@ -18,6 +18,7 @@ use TCG\Voyager\Facades\Voyager;
 
 */
 
+
 Route::any('/', function () {
     return view('index');
 });
